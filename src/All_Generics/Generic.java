@@ -17,8 +17,6 @@ public class Generic<T> {   // T is a type parameter
 class GenericTest {
     public static void main(String [] args){
         Scanner m = new Scanner (System.in);
-        Scanner n = new Scanner (System.in);
-        
         
         Generic<Integer>obj1;    // replace with integer type
         obj1 = new Generic(m.nextInt());
