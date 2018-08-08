@@ -27,7 +27,7 @@ class GenericTest {
         System.out.println("Value of T : " + x);
         
         Generic<String>obj2;    // replace with String type
-        obj2 = new Generic(n.nextLine());
+        obj2 = new Generic("This is a Generic Class");
         obj2.showType();
         String y = obj2.getobj();
         System.out.println("Meaning of T : " + y);
