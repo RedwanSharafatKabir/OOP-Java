@@ -39,7 +39,7 @@ public class Container<T> {
             System.out.print(items[i]+" ");
         }
         System.out.println();
-        for(Object i : items) {         // amra jani j shob object er super class "Object"
+        for(Object i : items) {         // amra jani j shob (class, type & object) er super class "Object"
             System.out.print(i + " ");
         }
         System.out.println("\n");
