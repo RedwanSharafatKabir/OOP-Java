@@ -61,7 +61,7 @@ public class Container<T> {
    jodi akta class "Foo" onno akta class "Bar" er subclass hoy, taile "Foo" er generic class kono vabe e "Bar" er
    Generic class er subclass noy.
 
- * Bar b = new Foo(); 								// aita possible
+ * Bar b = new Foo();                                                           // aita possible
  * Object o = new String();							// aita possible
  * Container <Bar> b = new Container<Foo>(); 		// but, aita possible na
  * Container <Object> b = new Container<String>(); 	// but, aita possible na
