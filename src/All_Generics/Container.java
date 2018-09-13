@@ -1,5 +1,5 @@
 
-/// generic subtyping
+// generic subtyping
 
 package All_Generics;
 
