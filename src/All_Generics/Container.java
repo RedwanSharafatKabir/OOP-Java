@@ -13,7 +13,7 @@ public class Container<T> {
     @SuppressWarnings("unchecked")          // ai annotation dile kno error dekhabe na.
     
     public Container(){
-//	obj = new T[max];              // ai ta kora jabe na. ai jonno nicher ai way. but, warning dibe.
+//	items = new T[max];              // ai ta kora jabe na. ai jonno nicher ai way. but, warning dibe.
         items = (T[]) new Object[MAX_LENGTH];
     }
        
