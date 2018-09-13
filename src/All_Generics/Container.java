@@ -7,7 +7,7 @@ public class Container<T> {
     
     private static final int MAX_LENGTH = 10;
     
-    private T[] items;
+    private T [] items;
     private int currentIndex;
     
     @SuppressWarnings("unchecked")          // ai annotation dile kno error dekhabe na.
