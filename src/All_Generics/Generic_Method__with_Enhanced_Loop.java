@@ -1,6 +1,6 @@
 package All_Generics;
 import java.util.*;
-public class Generic_Method {
+public class Generic_Method__with_Enhanced_Loop {
     public static <E> void output(E[] e){
         for(E e1 : e){
             System.out.print(" "+e1);
