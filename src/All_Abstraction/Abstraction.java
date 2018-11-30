@@ -1,5 +1,6 @@
 package All_Abstraction;
 
+//abstract k shob shomoy class extends kore
 //abstract class
 abstract public class Abstraction {
     void phone1 (){
