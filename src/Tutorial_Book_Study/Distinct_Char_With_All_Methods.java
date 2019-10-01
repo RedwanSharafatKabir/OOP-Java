@@ -19,7 +19,7 @@ public class Distinct_Char_With_All_Methods {
 //            }
 //        }
         
-        // Using Hash Set
+        // Using HashSet
 //        Set<Character> linkedHashSet = new LinkedHashSet<>();
 //        for (i=0;i<st.length();i++) {
 //            linkedHashSet.add(st.charAt(i));
