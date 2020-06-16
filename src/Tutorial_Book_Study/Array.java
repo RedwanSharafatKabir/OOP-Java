@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Array {
     public static void main(String args []){
         Scanner input = new Scanner(System.in);
+        
         int [] a = new int[100];
         int max,min,x,sum=0,i;
         System.out.print("Initialize array size : ");
