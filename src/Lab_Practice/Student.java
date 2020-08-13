@@ -1,4 +1,4 @@
-package Lab_Practice;
+// package Lab_Practice;
 import java.util.*;
 public class Student {
     public String grade;

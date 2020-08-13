@@ -1,4 +1,4 @@
-package Lab_Practice;
+// package Lab_Practice;
 
 public class Pattern {
     public static void main(String [] args){
