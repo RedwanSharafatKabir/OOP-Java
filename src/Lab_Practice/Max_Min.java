@@ -1,4 +1,4 @@
-package Lab_Practice;
+// package Lab_Practice;
 import java.util.*;
 public class Max_Min {
     static void max (int x, int y){

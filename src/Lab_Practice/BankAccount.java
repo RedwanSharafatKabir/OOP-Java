@@ -1,51 +1,12 @@
-package Lab_Practice;
+// package Lab_Practice;
 
-abstract public class BankAccount {
-    
-    double balance = 500000.00;
+public interface BankAccount {
     
     abstract void deposit();
     abstract void withDraw();
     
 }
 
-class CheckingAccount extends BankAccount {
-    
-    double insufficientFundsFee = 230000.00;
-    
-    @Override
-    void deposit() {
-        System.out.println("amount - " + balance);
-    }
-    
-    public void processCheck(){
-        
-    }
-    
-    @Override
-    void withDraw() {
-        System.out.println("withdraw - " + (balance-insufficientFundsFee) + "\n");
-    }
-}
-
-class SavingAccount extends BankAccount {
-    
-    double annualInterestRate = 0.24;
-    
-    @Override
-    void deposit() {
-        System.out.println("amount - " + balance);
-    }
-    
-    public void depositMonthlyInterest(){
-        System.out.println("Monthly Interest : "+annualInterestRate/12);
-    }
-    
-    @Override
-    void withDraw() {
-        System.out.println("withdraw - " + (balance-230000.00));
-    }
-}
 class testBankAccount {
     public static void main(String [] args){
         BankAccount obj1,obj2;

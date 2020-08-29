@@ -1,4 +1,4 @@
-package Lab_Practice;
+// package Lab_Practice;
 public class User_Inheritance {
     String userid,password;
     User_Inheritance (String userid,String password){
